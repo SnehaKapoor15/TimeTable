@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>School Timetable</title>
+ <style>
+     table{ 
+  margin: 100px auto;
+}
+table, td, th{
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+td, th{
+  text-align: center;
+  padding: 10px;
+}
+th{
+  background-color: rgb(19, 221, 217);
+}
+tr:nth-child(even){
+  background-color: rgb(188, 245, 233);
+}
+
+
+ </style>
+</head>
+
+<body>
+  <table>
+    <caption><h4><em>Time Table</em></h4></caption>
+    <thead>
+      <tr>
+        <th>Day/Period</th>
+        <th>9:30-10:30</th>
+        <th>10:30-11:30</th>
+        <th>11:30-12:30</th>
+        <th>12:30-01:00</th>
+        <th>01:00-02:00</th>
+        <th>02:00-03:00</th>
+        <th>03:00-04:00</th>
+        <th>04:00-04:30</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td rowspan="6"><b>R<br>E<br>C<br>E<br>S<br>S</br></td>
+        <td colspan="3">Lab</td>
+        <td>Physics</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td colspan="3">Lab</td>
+        <td>English</td>
+        <td>Maths</td>
+        <td>Chemistry</td>
+        <td>Sports</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Maths</td>
+        <td>Physics</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td colspan="3">Library</td>
+      </tr>
+       <tr>
+        <td>Thursday</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td colspan="3">Lab</td>
+        <td>Physics</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td colspan="3">Lab</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td>Physics</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Chemistry</td>
+
+        <td colspan="3">Library</td>
+        <td>Physics</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
